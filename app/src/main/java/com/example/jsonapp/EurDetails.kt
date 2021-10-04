@@ -24,5 +24,6 @@ class EurDetails {
 
         @SerializedName("jpy")
         var jpy: Double? = null
+
     }
 }
