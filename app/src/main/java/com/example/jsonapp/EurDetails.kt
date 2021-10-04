@@ -1,13 +1,12 @@
 package com.example.jsonapp
 
 import com.google.gson.annotations.SerializedName
-import java.util.*
 
 class EurDetails {
 
 
     @SerializedName("date")
-    var date: Date? = null
+    var date: String? = null
 
     @SerializedName("eur")
     var eur: Currencies? = null
@@ -15,15 +14,15 @@ class EurDetails {
     class Currencies {
 
         @SerializedName("sar")
-        var sar: String? = null
+        var sar: Double? = null
 
         @SerializedName("usd")
-        var usd: String? = null
+        var usd: Double? = null
 
         @SerializedName("aud")
-        var aud: String? = null
+        var aud: Double? = null
 
         @SerializedName("jpy")
-        var jpy: String? = null
+        var jpy: Double? = null
     }
 }
